@@ -132,15 +132,6 @@ class GrafoMatriz():
                 return atual
             distancia += 1
         return distancia
-
-##    def diametro(self):
-##        diametro = 0
-##        lista_pares = itertools.combinations(list(range(self._vertices)), 2)
-##        for x,y in lista_pares:
-##            distancia = self.distancia(x,y)
-##            if distancia > diametro:
-##                diametro = distancia
-##        return diametro
     
     def componentes_conexas(self, nome_arquivo):
         componentes_conexas = []
