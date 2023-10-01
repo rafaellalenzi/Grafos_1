@@ -14,7 +14,7 @@ número de vértices, número de arestas, grau mínimo, grau máximo, grau médi
 #### Tempo da Busca em Largura:
 - Durante a execução, é criado um arquivo txt que contém o tempo de cada uma das 100 iterações. Para obter o tempo médio, o código imprime a soma dos tempos dividida pelo numero de execuções, nesse caso, 100.
 
-#### Componentes Conxeas:
+#### Componentes Conexas:
 - Durante a execução, é criado um arquivo txt que contém o número de componentes conexas, o tamanho de cada uma e uma lista com os vértices conectados.
 
 #### Diâmetro do grafo:
