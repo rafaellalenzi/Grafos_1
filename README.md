@@ -11,7 +11,11 @@ Esse é o construtor da classe, utilizado para receber um arquivo de texto que c
 - Funções requisitadas pelo professor:
 número de vértices, número de arestas, grau mínimo, grau máximo, grau médio, mediana de grau, busca por largura, busca por profundidade, distância entre vértices, diâmetro do grafo e componentes conexos.
 
-#### Armazenamento do tempo de busca em Largura:
-- *Largura:* Durante a execução, é criado um arquivo txt que contém o tempo de cada uma das 100 iterações. Para obter o tempo médio, o código imprime a soma dos tempos dividida pelo numero de execuções, nesse caso, 100.
+#### Tempo da Busca em Largura:
+- Durante a execução, é criado um arquivo txt que contém o tempo de cada uma das 100 iterações. Para obter o tempo médio, o código imprime a soma dos tempos dividida pelo numero de execuções, nesse caso, 100.
 
-#### Componentes Conxeas
+#### Componentes Conxeas:
+- Durante a execução, é criado um arquivo txt que contém o número de componentes conexas, o tamanho de cada uma e uma lista com os vértices conectados.
+
+#### Diâmetro do grafo:
+- Dividimos a função que descobre o diâmetro dos grafos em duas partes, uma para grafos com menos de 1000 vértices, no qual é realizada uma busca em largura para todos os vértices e o caminho que tiver a maior largura será o diâmetro, e outra para grafos com 1000 ou mais vértices, na qual é realizada a busca em largura 1500 vezes, em vértices aleatórios, repetindo o mesmo método.
