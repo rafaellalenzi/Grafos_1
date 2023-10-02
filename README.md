@@ -12,7 +12,7 @@ Esse é o construtor da classe, utilizado para receber um arquivo de texto que c
 número de vértices, número de arestas, grau mínimo, grau máximo, grau médio, mediana de grau, busca por largura, busca por profundidade, distância entre vértices, diâmetro do grafo e componentes conexos.
 
 #### Tempo da Busca em Largura:
-- Durante a execução, é criado um arquivo txt que contém o tempo de cada uma das 100 iterações. Para obter o tempo médio, o código imprime a soma dos tempos dividida pelo numero de execuções, nesse caso, 100.
+- Durante a execução, é criado um arquivo txt que contém o passo (sendo 100 iterações, também serão 100 passos), o vertice de origem das buscas e, além disso, tem duas opcões: uma para armazenar o tempo das BFS e DFS em matriz e lista, e outra para, BFS e DFS somente em lista (grafos que matriz precisa de uma memória que não temos). Para obter o tempo médio, o código imprime a soma dos tempos dividida pelo numero de execuções, nesse caso, 100.
 
 #### Componentes Conexas:
 - Durante a execução, é criado um arquivo txt que contém o número de componentes conexas, o tamanho de cada uma e uma lista com os vértices conectados.
